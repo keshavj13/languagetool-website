@@ -12,7 +12,7 @@ else
   BUILD_DATE=`date +%Y%m%d`
 fi
 
-STANDALONE_TARGET=$SNAPSHOT_DIR/LanguageTool-$BUILD_DATE-snapshot.zip
+  STANDALONE_TARGET=$SNAPSHOT_DIR/LanguageTool-$BUILD_DATE-snapshot.zip 
 
 cd /home/languagetool/languagetool.org/git-checkout
 git fetch && git rebase origin/master
