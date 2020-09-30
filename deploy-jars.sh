@@ -17,7 +17,7 @@ cd /home/languagetool/languagetool.org/git-checkout
 rm -r /tmp/lt-snapshot
 rm -r /tmp/lt-wikipedia-snapshot
 
-SNAPSHOT=$SNAPSHOT_DIR/LanguageTool-$DATE-snapshot.zip
+SNAPSHOT=$SNAPSHOT_DIR/Languagetool-$DATE-snapshot.zip
 if [ ! -f $SNAPSHOT ]; then
   echo "Error: $SNAPSHOT not found, stopping"
   exit
